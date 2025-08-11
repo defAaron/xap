@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Tweet Finder</title>
+</head>
+<body style="background-color:#498bcd; color:white; font-family:Arial, sans-serif; padding:20px;">
+    <h1>Find a Tweet</h1>
+    <form method="post">
+        <label>Twitter Handle (without @):</label><br>
+        <input type="text" name="handle" required><br><br>
+
+        <label>Date (YYYY-MM-DD):</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <input type="submit" value="Search">
+    </form>
+
+    {% if tweet %}
+        <h2>Result:</h2>
+        <p>{{ tweet }}</p>
+    {% endif %}
+</body>
+</html>
