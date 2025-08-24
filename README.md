@@ -4,7 +4,6 @@ Xap is a simple Flask-based web application that allows users to search the most
 
 Features
 -
----
 🔍 Tweet Lookup  
 - Handle Input: Enter a Twitter handle (without `@`)  
 - Date Selection: Choose a date in `YYYY-MM-DD` format  
@@ -22,13 +21,11 @@ Features
 
 Technology Stack
 -
----
 - **Frontend:** HTML 
 - **Backend:** Python Flask  
 
 Getting Started
 -
----
 
 ### Prerequisites
 - Python 3.9 or higher  
