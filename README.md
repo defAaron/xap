@@ -59,7 +59,7 @@ Open your browser:
 http://127.0.0.1:5000
 
 Project Structure
-training_project/
+xap/
 ├── app.py              # Main Flask application
 ├── requirements.txt    # Python dependencies
 └── templates/
