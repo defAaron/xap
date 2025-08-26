@@ -1,6 +1,6 @@
 Xap - Last Tweet Searching Tool for X
 =
-Xap is a simple Flask-based web application that allows users to search the most recent tweet posted by a specific handle on a given date.
+Xap is a simple Flask-based web application that allows users to search the most recent tweet posted by a specific handle on a given date. As someone that likes to monitor social media sentiment regarding investments to take trading decisions, the biggest benefit of something like this would be the ability to integrate this into my automated trading bot as an input. Without a tool like this, the general workflow would involve manually browsing relevant Twitter accounts and parsing through the information whereas with this we can simply use the tool to extract information from the account we're interested in and integrate it into our workflow.
 
 Features
 -
