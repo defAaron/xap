@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 # Put your Bearer Token here
-BEARER_TOKEN = 'YOUR_BEARER_TOKEN_HERE'
+BEARER_TOKEN = 'blank'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
