@@ -19,6 +19,8 @@ Features
 - UI improvements with Bootstrap/Tailwind  
 - Deployment to Heroku/Render for public access 
 
+Please note that you will need to insert your own bearer token as the BEARER_TOKEN variable to allow the application to give correct results.
+
 Technology Stack
 -
 - **Frontend:** HTML 
@@ -30,6 +32,7 @@ Getting Started
 ### Prerequisites
 - Python 3.9 or higher  
 - pip: package manager
+- X API Bearer Token
 
 
 ### Installation
