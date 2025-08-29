@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAG5U3AEAAAAATbODAnDxud1q3hrP3Y8XVAlO%2BdI%3D94cYHOr97jfEMUmZaYubeBMqabv2CN0Gyr9dfdzfZ4vA5S6U97"
+BEARER_TOKEN = ""
 
 @app.route("/", methods=["GET", "POST"])
 def index():
